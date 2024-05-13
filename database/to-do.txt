@@ -1,0 +1,17 @@
+Satvik:
+- Artist and Music Schema | STATUS: created the table need to test inserting
+
+
+Jacob:
+- Created outline for user and playlist relationship
+
+
+Brenden:
+- Changed ACCOUNT_ID, PLAYLIST_ID in Acct, Playlist, MusicIdArray to INT UNSIGNED
+
+- Added AUTO_INCREMENT to ACCOUNT_ID in Acct, and PLAYLIST_ID in Playlist
+
+- Removed AUTO_INCREMENT from FOLLOWER_COUNT and FOLLOWING_COUNT in Acct
+
+- Began Review/Song Review/Album Review Schema outline
+  -> Will need to figure out how to store comments for each review

@@ -1,0 +1,13 @@
+1. cd into /backend and run this
+    python -m venv <name of your virtual environment>
+2. run this to activate the virtual environment
+    ./<name of your virtual environment>/Scripts/activate
+    Note activating the virtual environment might be different if you are on linux
+3. run this to install the needed packages to the venv
+    python -m pip install -r requirements.txt
+    Note: be in the same folder as the requirements.txt file and make sure the virtual environment is active
+4. add the path to your virtual in the .gitignore file at the root folder of the repository
+    This is so your virtual environment will not be pushed to the github repo
+    
+Whenever a new package is installed update the requirements.txt file. Everyone can update their
+own virtual environment by using this file
